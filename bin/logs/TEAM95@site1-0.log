@@ -1,0 +1,40 @@
+200502 200450.731|CONFIG|Thread-2|setFileHandlers|Now logging to C:\Users\msn71\OneDrive\桌面\pc2-9.4.1\bin\logs directory.
+200502 200450.731|INFO|Thread-2|info|
+200502 200450.731|INFO|Thread-2|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 11.0.2 build 3850 Windows 10 10.0 (amd64) 
+200502 200450.732|INFO|Thread-2|info|Login: team95 (aka team95)
+200502 200450.732|INFO|Thread-2|startLog|Working directory is C:\Users\msn71\OneDrive\桌面\pc2-9.4.1\bin
+200502 200450.732|INFO|Thread-2|startLog|Process id is 5532@LAPTOP-IIRT6P51
+200502 200450.732|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+200502 200450.749|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+200502 200451.000|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+200502 200451.000|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #3856 SERVER0 @ site 1 -> TEAM95 @ site 1
+200502 200451.001|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #3856 SERVER0 @ site 1 -> TEAM95 @ site 1
+200502 200616.672|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for power GNU C++ file: C:\Users\msn71\OneDrive\桌面\桌面\1111111\main.cpp
+200502 200616.674|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM95 @ site 1 -> SERVER0 @ site 1
+200502 200616.674|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM95 @ site 1 -> SERVER0 @ site 1
+200502 200616.809|INFO|Thread-4|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #3858 SERVER0 @ site 1 -> TEAM95 @ site 1
+200502 200616.809|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #3858 ) recieveObject
+200502 200616.810|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-8927542023224269821)
+200502 200616.810|INFO|Thread-4|dumpPacket|    To: TEAM95 @ site 1
+200502 200616.810|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 452 QUEUED_FOR_COMPUTER_JUDGEMENT 15784 min 947065439ms from TEAM95 @ site 1 id Run-3599338449625043001 problem power-1500684151850304460 lang GNU C++--3853884939487976869
+200502 200616.811|INFO|Thread-4|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #3858 SERVER0 @ site 1 -> TEAM95 @ site 1
+200502 200616.811|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #3858 ) handlePacket
+200502 200616.811|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-8927542023224269821)
+200502 200616.811|INFO|Thread-4|dumpPacket|    To: TEAM95 @ site 1
+200502 200616.812|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 452 QUEUED_FOR_COMPUTER_JUDGEMENT 15784 min 947065439ms from TEAM95 @ site 1 id Run-3599338449625043001 problem power-1500684151850304460 lang GNU C++--3853884939487976869
+200502 200618.141|INFO|Thread-4|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #3858 SERVER0 @ site 1 -> TEAM95 @ site 1
+200502 200620.776|INFO|Thread-5|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #3862 SERVER0 @ site 1 -> TEAM95 @ site 1
+200502 200620.777|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #3862 ) recieveObject
+200502 200620.777|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-8927542023224269821)
+200502 200620.777|INFO|Thread-5|dumpPacket|    To: TEAM95 @ site 1
+200502 200620.777|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 452 JUDGED 15784 min 947065439ms from TEAM95 @ site 1 id Run-3599338449625043001 problem power-1500684151850304460 lang GNU C++--3853884939487976869
+200502 200620.777|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-8641536729429975604 id JudgementRecord--1966364083336180910
+200502 200620.778|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+200502 200620.778|INFO|Thread-5|info|handlePacket start Packet[RUN_JUDGEMENT] #3862 SERVER0 @ site 1 -> TEAM95 @ site 1
+200502 200620.778|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #3862 ) handlePacket
+200502 200620.778|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (acanlab-PC @ 140.115.54.193) (Contest Id: Default-8927542023224269821)
+200502 200620.778|INFO|Thread-5|dumpPacket|    To: TEAM95 @ site 1
+200502 200620.778|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 452 JUDGED 15784 min 947065439ms from TEAM95 @ site 1 id Run-3599338449625043001 problem power-1500684151850304460 lang GNU C++--3853884939487976869
+200502 200620.779|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE2 @ site 1 judgement Yes-8641536729429975604 id JudgementRecord--1966364083336180910
+200502 200620.779|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+200502 200622.194|INFO|Thread-5|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #3862 SERVER0 @ site 1 -> TEAM95 @ site 1

@@ -1,0 +1,20 @@
+200310 190052.333|CONFIG|main|setFileHandlers|Now logging to C:\Users\msn71\OneDrive\орн▒\pc2-9.4.1\bin\logs directory.
+200310 190052.338|INFO|main|info|
+200310 190052.347|INFO|main|info|Version 9.4.1 20170125 (Wednesday, January 25th 2017 02:54 UTC) Java ver 11.0.2 build 3850 Windows 10 10.0 (amd64) 
+200310 190052.348|INFO|main|startLog|Working directory is C:\Users\msn71\OneDrive\орн▒\pc2-9.4.1\bin
+200310 190052.391|INFO|main|startLog|Process id is 7480@LAPTOP-IIRT6P51
+200310 190052.391|INFO|main|start|Starting ConnectionManager...
+200310 190052.652|INFO|main|start|Started ConnectionManager
+200310 190052.656|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/msn71/OneDrive/орн▒/pc2-9.4.1/bin/pc2v9.ini
+200310 190052.657|INFO|main|setClientServerAndPort|setClientServerAndPort 140.115.54.193 parsed as 140.115.54.193 port 50002
+200310 190052.657|INFO|main|info|Contacting server at 140.115.54.193:50002
+200310 190052.658|INFO|main|connectToMyServer|Connecting to 140.115.54.193:50002
+200310 190113.665|INFO|main|<init>|IO Exception:140.115.54.193
+200310 190113.666|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+200310 190113.666|INFO|main|start|Exception contacting my server 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection timed out: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2664)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+200310 190113.667|INFO|main|info|Unable to contact server at 140.115.54.193:0 Connection timed out: connect
